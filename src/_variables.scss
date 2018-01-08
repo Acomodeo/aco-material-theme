@@ -1,0 +1,32 @@
+$aco-primary: (
+    500: #413b59,
+    100: #6c6586,
+    900: #191530,
+    contrast: (
+        500: white,
+        100: white,
+        900: white
+    )
+);
+
+$aco-accent: (
+    500: #7ac6b8,
+    100: #acf9ea,
+    900: #499588,
+    contrast: (
+        500: white,
+        100: white,
+        900: white
+    )
+);
+
+$aco-warn: (
+    500: #ff5722,
+    100: #ff8a50,
+    900: #c41c00,
+    contrast: (
+        500: white,
+        100: white,
+        900: white
+    )
+);
