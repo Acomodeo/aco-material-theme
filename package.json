@@ -2,6 +2,7 @@
   "name": "aco-material-theme",
   "version": "2.0.1",
   "description": "Acomodeo material2 theme",
+  "repository": "https://github.com/Acomodeo/aco-material-theme",
   "main": "dist/theme.css",
   "scripts": {
     "build": "rm -rf ./build && sass -I node_modules src:dist"
