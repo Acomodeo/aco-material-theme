@@ -1,10 +1,13 @@
 :root {
-  --primary: #413b59;
-  --primaryLighter: #6c6586;
-  --primaryDarker: #191530;
-  --accent: #7ac6b8;
-  --accentLighter: #acf9ea;
-  --accentDarker: #499588;
-  --warn: #ff5722;
-  --warnLighter: #ff8a50;
-  --warnDarker: #c41c00; }
+  --primary: map-get($aco-primary, 500);
+  --primaryLighter: map-get($aco-primary, 100);
+  --primaryDarker: map-get($aco-primary, 900);
+  --accent: map-get($aco-accent, 500);
+  --accentLighter: map-get($aco-accent, 100);
+  --accentDarker: map-get($aco-accent, 900);
+  --warn: map-get($aco-warn, 500);
+  --warnLighter: map-get($aco-warn, 100);
+  --warnDarker: map-get($aco-warn, 900);
+}
+
+/*# sourceMappingURL=colors.css.map */

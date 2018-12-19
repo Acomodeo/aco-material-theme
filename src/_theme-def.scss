@@ -1,0 +1,14 @@
+@include mat-core();
+
+$aco-primary-palette: mat-palette($aco-primary, 500, 100, 900);
+$aco-accent-palette: mat-palette($aco-accent, 500, 100, 900);
+$aco-warn-palette: mat-palette($aco-warn, 500, 100, 900);
+
+$aco-theme: mat-light-theme(
+    $aco-primary-palette,
+    $aco-accent-palette,
+    $aco-warn-palette
+);
+
+@include angular-material-theme($aco-theme);
+

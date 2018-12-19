@@ -1,16 +1,14 @@
 {
   "name": "aco-material-theme",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Acomodeo material2 theme",
   "main": "dist/theme.css",
   "scripts": {
-    "build": "node-sass --include-path node_modules src/ -o dist/",
-    "dev": "nodemon --watch src/*.scss -x \"npm run build\""
+    "build": "rm -rf ./build && sass -I node_modules src:dist"
   },
   "author": "Hilmar Wiegand",
   "devDependencies": {
-    "node-sass": "^4.7.2",
-    "nodemon": "^1.14.9",
-    "@angular/material": "^5.0.3"
+    "@angular/material": "~7.1.0",
+    "sass": "~1.15.2"
   }
 }
