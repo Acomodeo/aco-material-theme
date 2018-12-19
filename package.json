@@ -1,6 +1,6 @@
 {
   "name": "aco-material-theme",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Acomodeo material2 theme",
   "main": "dist/theme.css",
   "scripts": {
