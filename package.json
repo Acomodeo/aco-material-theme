@@ -10,7 +10,7 @@
   },
   "author": "Hilmar Wiegand <me@hwgnd.de>",
   "devDependencies": {
-    "@angular/material": "~9.2.1",
+    "@angular/material": "~11.1.1",
     "sass": "^1.26.3"
   }
 }
