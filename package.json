@@ -1,6 +1,6 @@
 {
   "name": "@acomodeo/material-theme",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Acomodeo angular material2 theme",
   "repository": "https://github.com/Acomodeo/aco-material-theme",
   "main": "dist/theme.css",
@@ -10,7 +10,7 @@
   },
   "author": "Hilmar Wiegand <me@hwgnd.de>",
   "devDependencies": {
-    "@angular/material": "~9.2.1",
-    "sass": "^1.26.3"
+    "@angular/material": "^17.3.10",
+    "sass": "^1.81.0"
   }
 }

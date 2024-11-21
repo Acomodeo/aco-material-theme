@@ -1,14 +1,19 @@
-@include mat-core();
+@use '@angular/material' as mat;
 
-$aco-primary-palette: mat-palette($aco-primary, 500, 100, 900);
-$aco-accent-palette: mat-palette($aco-accent, 500, 100, 900);
-$aco-warn-palette: mat-palette($aco-warn, 500, 100, 900);
+@include mat.core();
 
-$aco-theme: mat-light-theme(
-    $aco-primary-palette,
-    $aco-accent-palette,
-    $aco-warn-palette
+$aco-primary-palette: mat.define-palette($aco-primary, 500, 100, 900);
+$aco-accent-palette: mat.define-palette($aco-accent, 500, 100, 900);
+$aco-warn-palette: mat.define-palette($aco-warn, 500, 100, 900);
+
+$aco-theme: mat.define-light-theme(
+    (
+        color: (
+          primary: $aco-primary-palette,
+          accent: $aco-accent-palette,
+          warn: $aco-warn-palette
+        ),
+    )
 );
 
-@include angular-material-theme($aco-theme);
-
+@include mat.all-component-themes($aco-theme);
