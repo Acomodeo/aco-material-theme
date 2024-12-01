@@ -1,6 +1,6 @@
 {
   "name": "@acomodeo/material-theme",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Acomodeo angular material2 theme",
   "repository": "https://github.com/Acomodeo/aco-material-theme",
   "main": "dist/theme.css",
